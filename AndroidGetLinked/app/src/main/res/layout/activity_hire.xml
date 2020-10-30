@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HireActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:text="Fill form to hire"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Your address"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Your address"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Your contact"/>
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="contact"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Select date and time of appointment"/>
+
+            <DatePicker
+                android:id="@+id/hireDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false" />
+        
+        <TimePicker
+            android:id="@+id/timepickerhiredate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode ="spinner"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Credit/Debit card number"/>
+
+            <EditText
+                android:id="@+id/card_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="xxxx xxxx xxxx xxxx"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Date of card expiry"/>
+
+            <DatePicker
+                android:id="@+id/cardexpiry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="CVV"/>
+
+            <EditText
+                android:id="@+id/cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="xxx"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/confirmandhire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#ffff"
+            android:background="@color/colorPrimary"
+            android:text="Confirm and hire"/>
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

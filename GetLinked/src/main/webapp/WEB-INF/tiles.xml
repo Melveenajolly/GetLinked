@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="app.default" template="/WEB-INF/layouts/default.jsp">
+    <put-attribute name="title" value="GetLinked Application" />
+    
+   </definition>
+   
+   <definition name="app.homepage" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/home.jsp" />
+   </definition>
+   
+   <definition name="app.about" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/about.jsp" />
+   </definition>
+   
+   <definition name="app.login" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/login.jsp" />
+   </definition>
+   
+   <definition name="app.register" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/register.jsp" />
+   </definition>
+  
+   <definition name="app.signup" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/signUp.jsp" />
+   </definition>
+   
+    <definition name="app.view" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/view.jsp" />
+   </definition>
+   
+    <definition name="app.viewAll" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/viewAll.jsp" />
+   </definition>
+   
+    <definition name="app.admin" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/admin.jsp" />
+   </definition>
+   
+   <definition name="app.hirepage" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/hirepage.jsp" />
+   </definition>
+   
+   <definition name="app.myhires" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/myhires.jsp" />
+   </definition>
+   
+   <definition name="app.mywork" extends="app.default">
+   		<put-attribute name="content" value="/WEB-INF/tiles/mywork.jsp" />
+   </definition>
+   
+     
+   
+ </tiles-definitions>
